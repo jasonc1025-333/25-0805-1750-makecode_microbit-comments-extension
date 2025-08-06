@@ -4,40 +4,13 @@
 * Read more at https://makecode.microbit.org/blocks/custom
 */
 
+
 enum MyEnum {
     //% block="one"
     One,
     //% block="two"
     Two
 }
-
-/**
- * Custom blocks
- */
-
-
-//// jwc 25-0805-1750 o //% weight=100 color=#0fbc11 icon=""
-//// jwc 25-0805-1750 o namespace custom {
-//// jwc 25-0805-1750 o     /**
-//// jwc 25-0805-1750 o      * TODO: describe your function here
-//// jwc 25-0805-1750 o      * @param n describe parameter here, eg: 5
-//// jwc 25-0805-1750 o      * @param s describe parameter here, eg: "Hello"
-//// jwc 25-0805-1750 o      * @param e describe parameter here
-//// jwc 25-0805-1750 o      */
-//// jwc 25-0805-1750 o     //% block
-//// jwc 25-0805-1750 o     export function foo(n: number, s: string, e: MyEnum): void {
-//// jwc 25-0805-1750 o         // Add code here
-//// jwc 25-0805-1750 o     }
-//// jwc 25-0805-1750 o 
-//// jwc 25-0805-1750 o     /**
-//// jwc 25-0805-1750 o      * TODO: describe your function here
-//// jwc 25-0805-1750 o      * @param value describe value here, eg: 5
-//// jwc 25-0805-1750 o      */
-//// jwc 25-0805-1750 o     //% block
-//// jwc 25-0805-1750 o     export function fib(value: number): number {
-//// jwc 25-0805-1750 o         return value <= 1 ? value : fib(value -1) + fib(value - 2);
-//// jwc 25-0805-1750 o     }
-//// jwc 25-0805-1750 o }
 
 
 /**
@@ -67,6 +40,7 @@ namespace quest_Note_1 {
     export function quest_Show_String_For_Note_Big_Func(textStrIn: string) {
     }
 }
+
 
 /**
  * quest_Note_2 blocks
